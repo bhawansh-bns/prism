@@ -1,4 +1,5 @@
 from flask import Flask
+import db , api , os , config , flask_restful, logging
 
 logging.basicConfig(level=logging.DEBUG,
                    format='[%(asctime)s]: {} %(levelname)s %(message)s'.format(os.getpid()),
@@ -12,9 +13,9 @@ def create_app():
    logger.info(f'Starting app in {config.APP_ENV} environment')
    app = Flask(__name__)
    app.config.from_object('config')
-   api.init_app(app)
+   # api.init_app(app)
    # initialize SQLAlchemy
-   db.init_app(app)
+   # db.init_app(app)
 
    # define hello world page
 

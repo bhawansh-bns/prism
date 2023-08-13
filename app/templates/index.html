@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BERT Entailment Predictor</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">BERT Cosine Similarity Calculator</h1>
+        <form method="POST" action="{{ url_for('main.predict') }}" class="prediction-form">
+            <div class="form-group">
+                {{ form.hidden_tag() }}
+                <label for="{{ form.sentence1.id }}" class="label">Sentence 1:</label>
+                {{ form.sentence1(class="input") }}
+            </div>
+            <div class="form-group">
+                <label for="{{ form.sentence2.id }}" class="label">Sentence 2:</label>
+                {{ form.sentence2(class="input") }}
+            </div>
+            <button type="submit" class="button">Calculate</button>
+        </form>
+        {% if similarity is not none %}
+            <div class="result">
+                <p class="result-label">Cosine Similarity:</p>
+                <p class="result-value">{{ similarity }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

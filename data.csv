@@ -1,0 +1,420 @@
+Sentence 1,Sentence 2,Gold Label
+Turn on the lights in the bedroom,Switch on the bedroom lights,Entailment
+Lock the front door,Secure the entrance,Entailment
+Set the temperature to 72 degrees,Adjust thermostat to 72 degrees,Entailment
+Turn off the TV in the living room,Switch off the living room television,Entailment
+Dim the lights in the dining room,Lower dining room lights,Entailment
+Increase the volume on the speaker,Turn up the speaker volume,Entailment
+Start the washing machine,Begin the laundry machine,Entailment
+Open the garage,Raise the garage door,Entailment
+Turn on the coffee maker,Start the coffee machine,Entailment
+Play music in the den,Stream music in the den,Entailment
+Turn off the fan in the office,Switch off the office fan,Entailment
+Lock the back door,Secure the rear entrance,Entailment
+Set the temperature to 68 degrees,Adjust thermostat to 68 degrees,Entailment
+Turn on the lamp in the living room,Switch on the living room lamp,Entailment
+Dim the lights in the bedroom,Lower bedroom lights,Entailment
+Increase the volume on the TV,Turn up the television volume,Entailment
+Start the dishwasher,Run the dishwashing machine,Entailment
+Open the gate to the garden,Raise the garden gate,Entailment
+Turn on the ceiling fan in the bedroom,Activate the bedroom ceiling fan,Entailment
+Play some music on the speakers in the kitchen,Stream music on the kitchen speakers,Entailment
+Turn off the lights in the study,Switch off the study lights,Entailment
+Lock the garage door,Secure the garage,Entailment
+Set the temperature to 75 degrees,Adjust thermostat to 75 degrees,Entailment
+Turn on the TV in the living room,Switch on the living room television,Entailment
+Dim the lights in the living room,Lower living room lights,Entailment
+Increase the volume on the radio,Turn up the radio volume,Entailment
+Start the oven,Turn on the oven,Entailment
+Open the front door,Unlock the entrance,Entailment
+Turn on the air conditioning,Activate the AC,Entailment
+Play some music in the living room,Stream music in the living room,Entailment
+Turn off the lights in the kitchen,Switch off the kitchen lights,Entailment
+Lock the sliding door,Secure the sliding entrance,Entailment
+Set the temperature to 70 degrees,Adjust thermostat to 70 degrees,Entailment
+Turn on the lamp in the bedroom,Switch on the bedroom lamp,Entailment
+Dim the lights in the office,Lower office lights,Entailment
+Increase the fan speed in the living room,Turn up the living room fan,Entailment
+Start the microwave,Turn on the microwave,Entailment
+Open the patio door,Unlock the patio entrance,Entailment
+Turn on the heater,Activate the heater,Entailment
+Play some music in the den,Stream music in the den,Entailment
+Turn off the lights in the bedroom,Switch off the bedroom lights,Entailment
+Lock the window,Secure the window,Entailment
+Set the temperature to 74 degrees,Adjust thermostat to 74 degrees,Entailment
+Turn on the speaker in the kitchen,Switch on the kitchen speaker,Entailment
+Dim the lights in the bathroom,Lower bathroom lights,Entailment
+Increase the volume on the stereo,Turn up the volume on the speaker,Entailment
+Open Gmail and compose a new email,Launch Gmail and create a new message,Entailment
+Open WhatsApp and message John,Start WhatsApp and send message to John,Entailment
+Open Twitter and post a new tweet,Launch Twitter and make a new tweet,Entailment
+Open Facebook and update my status,Launch Facebook and change my status,Entailment
+Open Instagram and upload a new photo,Launch Instagram and post a new photo,Entailment
+Open YouTube and play a video,Launch YouTube and start playing a video,Entailment
+Open Spotify and play my playlist,Launch Spotify and start playing my playlist,Entailment
+Open Netflix and play a movie,Launch Netflix and start playing a movie,Entailment
+Open Amazon and search for a product,Launch Amazon and look for a product,Entailment
+Open Uber and book a ride,Launch Uber and request a ride,Entailment
+Open Lyft and request a ride,Launch Lyft and book a ride,Entailment
+Open Waze and navigate to my home,Launch Waze and set my home as destination,Entailment
+Open Google Maps and find a nearby gas station,Launch Google Maps and search for gas stations nearby,Entailment
+Open Google Calendar and add an event,Launch Google Calendar and create a new event,Entailment
+Open Apple Calendar and schedule a meeting,Launch Apple Calendar and create a new meeting,Entailment
+Open Trello and create a new task,Launch Trello and add a new task,Entailment
+Open Asana and assign a task,Launch Asana and delegate a task,Entailment
+Open Slack and send a message to the team,Launch Slack and post a message to the team,Entailment
+Open Zoom and start a meeting,Launch Zoom and initiate a new meeting,Entailment
+Open Skype and make a video call,Launch Skype and start a video call,Entailment
+Open Microsoft Teams and join a meeting,Launch Microsoft Teams and enter a meeting,Entailment
+Open Discord and join a voice channel,Launch Discord and connect to a voice channel,Entailment
+Open LinkedIn and send a connection request,Launch LinkedIn and invite someone to connect,Entailment
+Open TikTok and watch a video,Launch TikTok and start watching a video,Entailment
+Open Pinterest and search for inspiration,Launch Pinterest and look for inspiration,Entailment
+Open Reddit and browse r/funny,Launch Reddit and explore r/funny,Entailment
+Open Quora and search for an answer,Launch Quora and look for an answer,Entailment
+Open Shazam and identify a song,Launch Shazam and recognize a song,Entailment
+Open Yelp and find a restaurant nearby,Launch Yelp and search for restaurants nearby,Entailment
+Open Grammarly and proofread a document,Launch Grammarly and check a document,Entailment
+Open Duolingo and learn a new language,Launch Duolingo and start learning a language,Entailment
+Open Khan Academy and study math,Launch Khan Academy and learn math,Entailment
+Open Coursera and enroll in a course,Launch Coursera and join a course,Entailment
+Open Udemy and purchase a course,Launch Udemy and buy a course,Entailment
+Open Google Drive and create a new document,Launch Google Drive and make a new document,Entailment
+Open Dropbox and upload a file,Launch Dropbox and add a new file,Entailment
+Open Instagram and like a post,Launch Instagram and give a like to a post,Entailment
+Open Twitter and retweet a tweet,Launch Twitter and share a tweet,Entailment
+Open Facebook and comment on a post,Launch Facebook and add a comment to a post,Entailment
+Open YouTube and subscribe to a channel,Launch YouTube and follow a channel,Entailment
+Open Spotify and add a song to a playlist,Launch Spotify and include a song in a playlist,Entailment
+Open Netflix and add a movie to my list,Launch Netflix and save a movie to my list,Entailment
+Open Amazon and add a product to my wishlist,Launch Amazon and put a product in my wishlist,Entailment
+Open Uber and rate my driver,Launch Uber and give a rating to my driver,Entailment
+Open Lyft and tip my driver,Launch Lyft and give a tip to my driver,Entailment
+Open Waze and report a traffic jam,Launch Waze and inform about a traffic jam,Entailment
+Open Google Maps and share my location,Launch Google Maps and send my location,Entailment
+Open Google Calendar and check my schedule,Launch Google Calendar and view my schedule,Entailment
+Open Apple Calendar and set a reminder,Launch Apple Calendar and create a new reminder,Entailment
+Open Trello and move a task to a different list,Launch Trello and relocate a task to another list,Entailment
+Open Asana and mark a task as completed,Launch Asana and indicate that a task is done,Entailment
+Open Slack and join a channel,Launch Slack and enter a channel,Entailment
+Open Zoom and share my screen,Launch Zoom and display my screen,Entailment
+Open Skype and share files,Launch Skype and transfer files,Entailment
+Open Microsoft Teams and chat with a colleague,Launch Microsoft Teams and have a conversation with a colleague,Entailment
+Open Discord and send a direct message,Launch Discord and send a private message,Entailment
+Open LinkedIn and endorse a skill,Launch LinkedIn and validate a skill,Entailment
+Open TikTok and follow an account,Launch TikTok and subscribe to an account,Entailment
+Open Pinterest and save a pin,Launch Pinterest and bookmark a pin,Entailment
+Open Reddit and upvote a post,Launch Reddit and give an upvote to a post,Entailment
+Open Quora and answer a question,Launch Quora and provide an answer to a question,Entailment
+Open Shazam and play a song,Launch Shazam and play a recognized song,Entailment
+Open Yelp and leave a review,Launch Yelp and write a review,Entailment
+Open Grammarly and suggest a correction,Launch Grammarly and propose a correction,Entailment
+Open Duolingo and practice a lesson,Launch Duolingo and do a lesson,Entailment
+Open Khan Academy and study science,Launch Khan Academy and learn science,Entailment
+Open Coursera and download course materials,Launch Coursera and save course materials,Entailment
+Open Udemy and watch a lecture,Launch Udemy and view a lecture,Entailment
+Open Google Drive and share a document,Launch Google Drive and send a document,Entailment
+Open Dropbox and share a folder,Launch Dropbox and send a folder,Entailment
+Open Microsoft OneDrive and sync files,Launch Microsoft OneDrive and synchronize files,Entailment
+Turn on the lights in the conference room,Switch on the lights in the meeting room,Entailment
+Turn off the air conditioner in the office,Switch off the AC in the workplace,Entailment
+Set the temperature to 23 degrees in the lobby,Adjust the thermostat to 23 degrees in the reception area,Entailment
+Turn on the projector in the boardroom,Switch on the beamer in the conference room,Entailment
+Open the blinds in the CEO's office,Raise the window shades in the executive's office,Entailment
+Close the door to the break room,Shut the door to the staff lounge,Entailment
+Turn off the coffee maker in the kitchen,Switch off the coffeemaker in the pantry,Entailment
+Turn on the water dispenser in the hallway,Switch on the water cooler in the corridor,Entailment
+Lower the blinds in the training room,Close the window shades in the learning space,Entailment
+Set the lights to dim in the employee lounge,Adjust the lighting to dim in the staff break area,Entailment
+Turn off the printer in the accounting department,Switch off the printer in the finance division,Entailment
+Turn on the fan in the server room,Switch on the ventilation system in the data center,Entailment
+Turn off the lights in the restroom,Switch off the lights in the washroom,Entailment
+Turn on the TV in the waiting area,Switch on the television in the reception,Entailment
+Set the conference room lights to blue,Adjust the meeting room lighting to blue,Entailment
+Turn on the air purifier in the cubicle area,Switch on the air filter in the workstation space,Entailment
+Open the windows in the design studio,Raise the windows in the creative studio,Entailment
+Close the blinds in the executive office,Shut the window shades in the senior manager's office,Entailment
+Turn off the monitor in the IT department,Switch off the screen in the tech team,Entailment
+Set the thermostat to 20 degrees in the server room,Adjust the temperature to 20 degrees in the datacenter,Entailment
+Turn on the heater in the HR department,Switch on the heating system in the human resources area,Entailment
+Turn off the lights in the copy room,Switch off the lighting in the duplicating area,Entailment
+Open the door to the warehouse,Unlock the door to the storage space,Entailment
+Turn on the lights in the parking lot,Switch on the parking lot lights,Entailment
+Close the blinds in the training center,Shut the window shades in the learning hub,Entailment
+Turn off the air conditioner in the meeting room,Switch off the AC in the conference space,Entailment
+Set the temperature to 25 degrees in the executive suite,Adjust the thermostat to 25 degrees in the top management area,Entailment
+Turn on the projector in the training room,Switch on the beamer in the educational space,Entailment
+Open the blinds in the office lobby,Raise the window shades in the workplace reception,Entailment
+Close the door to the server room,Shut the door to the datacenter,Entailment
+Turn off the coffee maker in the employee lounge,Switch off the coffeemaker in the staff break room,Entailment
+Turn on the air conditioning in the car,Switch on the AC in the vehicle,Entailment
+Set the temperature to 20 degrees in the car,Adjust the thermostat to 20 degrees in the automobile,Entailment
+Turn off the radio in the car,Switch off the music player in the vehicle,Entailment
+Set the navigation system to the nearest gas station,Find the nearest petrol station on the GPS,Entailment
+Turn on the headlights in the car,Switch on the front lights in the automobile,Entailment
+Set the volume to 10 in the car speakers,Adjust the sound level to 10 in the car audio system,Entailment
+Roll down the windows in the car,Lower the car windows,Entailment
+Turn on the windshield wipers in the car,Switch on the wipers in the vehicle,Entailment
+Set the cruise control to 60 mph in the car,Adjust the car's speed to 60 miles per hour using cruise control,Entailment
+Turn off the interior lights in the car,Switch off the inside lights in the vehicle,Entailment
+Set the seat heater to high in the car,Adjust the seat warmer to high in the automobile,Entailment
+Turn on the rearview camera in the car,Switch on the backup camera in the vehicle,Entailment
+Set the air vent to face the feet in the car,Adjust the air flow to the foot area in the vehicle,Entailment
+Turn on the defroster in the car,Switch on the defogger in the automobile,Entailment
+Set the radio station to 98.7 in the car,Tune the radio to 98.7 FM in the vehicle,Entailment
+Roll up the windows in the car,Raise the car windows,Entailment
+Turn on the hazard lights in the car,Switch on the warning lights in the vehicle,Entailment
+Set the audio system to Bluetooth in the car,Switch the car's audio system to Bluetooth mode,Entailment
+Turn off the air recirculation in the car,Switch off the car's air circulation system,Entailment
+Set the audio system to FM radio in the car,Switch the car's audio system to FM radio mode,Entailment
+Turn on the seat cooling in the car,Switch on the seat cooler in the automobile,Entailment
+Set the GPS destination to the airport in the car,Program the GPS to take me to the airport in the vehicle,Entailment
+Turn off the parking sensor in the car,Switch off the car's parking aid system,Entailment
+Set the audio system to AUX in the car,Switch the car's audio system to AUX mode,Entailment
+Turn on the seat massage in the car,Switch on the seat massager in the automobile,Entailment
+Set the radio station to 104.3 in the car,Tune the radio to 104.3 FM in the vehicle,Entailment
+Turn off the traction control in the car,Disable the car's traction control system,Entailment
+Set the audio system to CD in the car,Switch the car's audio system to CD mode,Entailment
+Turn on the rear window defroster in the car,Switch on the back window defogger in the vehicle,Entailment
+Set the GPS destination to the hotel in the car,Program the GPS to take me to the hotel in the vehicle,Entailment
+What's the weather like today?,Can you tell me the current weather conditions?,Entailment
+Will it rain tomorrow?,Can you check if it's going to rain tomorrow?,Entailment
+What's the temperature right now?,Can you tell me the current temperature?,Entailment
+Is it going to be sunny today?,Can you check if it's going to be sunny today?,Entailment
+What's the forecast for this week?,Can you give me a weather forecast for the upcoming week?,Entailment
+Is there a chance of snow today?,Can you tell me if it's going to snow today?,Entailment
+Will it be hot tomorrow?,Can you check if it's going to be hot tomorrow?,Entailment
+Are there any thunderstorms expected today?,Can you tell me if there are any thunderstorms expected today?,Entailment
+What's the humidity level right now?,Can you give me the current humidity level?,Entailment
+Will it be windy today?,Can you check if it's going to be windy today?,Entailment
+What's the news for today?,Can you give me an update on the latest news?,Entailment
+Can you tell me about any breaking news?,Is there any breaking news you can share?,Entailment
+What's happening in the world right now?,Can you give me a news update on current events?,Entailment
+Can you give me the sports news for today?,What's the latest in the world of sports?,Entailment
+Can you tell me about any political news?,What's the latest in politics?,Entailment
+What's the entertainment news for today?,What's happening in the world of entertainment?,Entailment
+Can you tell me about any celebrity news?,What's the latest gossip on celebrities?,Entailment
+Is there any technology news today?,What's happening in the world of technology?,Entailment
+Can you give me the business news for today?,What's happening in the world of business?,Entailment
+Can you tell me about any science news?,What's the latest in science?,Entailment
+What's the weather like in New York?,Can you check the weather in New York?,Entailment
+What's the weather like in Los Angeles?,Can you check the weather in Los Angeles?,Entailment
+Will it rain in San Francisco tomorrow?,Can you check if it's going to rain in San Francisco tomorrow?,Entailment
+What's the weather like in Chicago?,Can you check the weather in Chicago?,Entailment
+Will it be hot in Miami today?,Can you check if it's going to be hot in Miami today?,Entailment
+What's the news for the United States today?,Can you give me a news update on the US?,Entailment
+Can you tell me about any international news?,What's happening in the world?,Entailment
+What's the weather like in London?,Can you check the weather in London?,Entailment
+What's the weather like in Paris?,Can you check the weather in Paris?,Entailment
+Will it rain in Tokyo tomorrow?,Can you check if it's going to rain in Tokyo tomorrow?,Entailment
+What's the weather like in Sydney?,Can you check the weather in Sydney?,Entailment
+Will it be hot in Dubai today?,Can you check if it's going to be hot in Dubai today?,Entailment
+What's in the news today?,Can you give me an update on the latest news?,Entailment
+What are the top headlines today?,Can you tell me the top news stories for today?,Entailment
+Is there any breaking news?,Can you give me an update on any breaking news?,Entailment
+What's happening in the world right now?,Can you give me a news update on current events?,Entailment
+Can you tell me about any political news?,What's the latest in politics?,Entailment
+What's the sports news for today?,What's the latest in the world of sports?,Entailment
+Can you give me the business news for today?,What's happening in the world of business?,Entailment
+What's the entertainment news for today?,What's happening in the world of entertainment?,Entailment
+Can you tell me about any celebrity news?,What's the latest gossip on celebrities?,Entailment
+Is there any technology news today?,What's happening in the world of technology?,Entailment
+What's the science news for today?,What's the latest in science?,Entailment
+Can you give me the world news for today?,What's happening around the world?,Entailment
+What's the local news for today?,What's happening in my area?,Entailment
+Can you tell me about any health news?,What's the latest in health?,Entailment
+Are there any news about the environment today?,What's happening with the environment?,Entailment
+What's the latest news on COVID-19?,Can you give me an update on COVID-19?,Entailment
+Can you give me the financial news for today?,What's happening in the financial world?,Entailment
+What's the latest news on the stock market?,Can you give me an update on the stock market?,Entailment
+Can you tell me about any news related to education?,What's happening in the world of education?,Entailment
+What's the latest news on climate change?,Can you give me an update on climate change?,Entailment
+Can you give me any news related to sports teams?,What's happening with my favorite sports team?,Entailment
+What's the latest news on the economy?,Can you give me an update on the economy?,Entailment
+Can you tell me about any news related to the entertainment industry?,What's happening in the entertainment industry?,Entailment
+What's the latest news on world politics?,Can you give me an update on world politics?,Entailment
+Can you give me any news related to the tech industry?,What's happening in the tech industry?,Entailment
+What's the latest news on the environment?,Can you give me an update on the environment?,Entailment
+Can you tell me about any news related to the automotive industry?,What's happening in the automotive industry?,Entailment
+What's the latest news on the housing market?,Can you give me an update on the housing market?,Entailment
+What's the latest news on immigration?,Can you give me an update on immigration?,Entailment
+Can you give me any news related to the travel industry?,What's happening in the travel industry?,Entailment
+What's the latest news on sports injuries?,Can you give me an update on sports injuries?,Entailment
+Can you tell me about any news related to social media?,What's happening in the world of social media?,Entailment
+What's the latest news on cybersecurity?,Can you give me an update on cybersecurity?,Entailment
+Can you suggest any good restaurants in the area?,Where can I find some good restaurants nearby?,Entailment
+Can you recommend a good recipe for chicken Alfredo?,Do you have any good recipes for chicken Alfredo?,Entailment
+Can you help me find a new bar to try?,Do you know of any good bars nearby?,Entailment
+Can you suggest any good Italian restaurants around here?,Where can I find some good Italian food nearby?,Entailment
+Can you recommend a good sushi restaurant in the area?,Do you know of any good sushi places nearby?,Entailment
+Can you help me find a restaurant with vegetarian options?,Where can I find a restaurant that serves vegetarian food?,Entailment
+Can you suggest any good cafes in the area?,Where can I find a good coffee shop nearby?,Entailment
+Can you recommend a good pizza place in the neighborhood?,Do you know of any good pizza restaurants nearby?,Entailment
+Can you help me find a place to get a drink tonight?,Where can I find a good bar nearby?,Entailment
+Can you suggest any good Indian restaurants in the area?,Where can I find some good Indian food nearby?,Entailment
+Can you recommend a good recipe for chocolate chip cookies?,Do you have any good chocolate chip cookie recipes?,Entailment
+Can you help me find a restaurant with outdoor seating?,Where can I find a restaurant with a patio nearby?,Entailment
+Can you suggest any good Mexican restaurants in the area?,Where can I find some good Mexican food nearby?,Entailment
+Can you recommend a good seafood restaurant in the neighborhood?,Do you know of any good seafood places nearby?,Entailment
+Can you help me find a place to get brunch this weekend?,Where can I find a good brunch spot nearby?,Entailment
+Can you suggest any good Chinese restaurants in the area?,Where can I find some good Chinese food nearby?,Entailment
+Can you recommend a good recipe for homemade pasta?,Do you have any good homemade pasta recipes?,Entailment
+Can you help me find a restaurant with live music?,Where can I find a restaurant with a live music performance nearby?,Entailment
+Can you suggest any good Thai restaurants in the area?,Where can I find some good Thai food nearby?,Entailment
+Can you recommend a good burger joint in the neighborhood?,Do you know of any good burger places nearby?,Entailment
+Can you help me find a place to get a cocktail after work?,Where can I find a good cocktail bar nearby?,Entailment
+Can you suggest any good sushi restaurants in the area?,Where can I find some good sushi places nearby?,Entailment
+Can you recommend a good recipe for homemade pizza?,Do you have any good homemade pizza recipes?,Entailment
+Can you help me find a restaurant with a view?,Where can I find a restaurant with a scenic view nearby?,Entailment
+Can you suggest any good French restaurants in the area?,Where can I find some good French food nearby?,Entailment
+Can you recommend a good steakhouse in the neighborhood?,Do you know of any good steak places nearby?,Entailment
+Can you help me find a place to get happy hour drinks tonight?,Where can I find a good happy hour spot nearby?,Entailment
+Can you suggest any good Korean restaurants in the area?,Where can I find some good Korean food nearby?,Entailment
+Can you recommend a good recipe for homemade mac and cheese?,Do you have any good homemade mac and cheese recipes?,Entailment
+Set a goal for my daily water intake,What should my daily water intake goal be?,Entailment
+Record my workout for today,What exercises did I do today?,Entailment
+Set a reminder for my yoga class tomorrow,Can you remind me about my yoga class tomorrow?,Entailment
+Check my progress towards my fitness goal,How am I doing towards my fitness goal?,Entailment
+Recommend a good pre-workout snack,What should I eat before my workout?,Entailment
+Log my weight for the week,What was my weight this week?,Entailment
+Set a goal for my weekly cardio workouts,What should my weekly cardio goal be?,Entailment
+Create a workout plan for me,Can you suggest a workout plan for me?,Entailment
+Give me advice on how to improve my running pace,How can I increase my running speed?,Entailment
+Remind me to take my vitamins every morning,Can you remind me to take my vitamins every day?,Entailment
+Track my calorie intake for the day,How many calories have I consumed today?,Entailment
+Set a reminder for my cycling class on Friday,Can you remind me about my cycling class on Friday?,Entailment
+Recommend a good protein shake after my workout,What should I drink after my workout?,Entailment
+Log my progress towards my weight loss goal,How much weight have I lost so far?,Entailment
+Set a goal for my weekly strength training workouts,What should my weekly strength training goal be?,Entailment
+Create a meal plan for me,Can you suggest a meal plan for me?,Entailment
+Give me advice on how to improve my push-up form,How can I improve my push-up technique?,Entailment
+Remind me to stretch before my workout,Can you remind me to stretch before my workout?,Entailment
+Track my daily protein intake,How much protein have I consumed today?,Entailment
+Set a reminder for my Pilates class next week,Can you remind me about my Pilates class next week?,Entailment
+Recommend a good post-workout snack,What should I eat after my workout?,Entailment
+Log my progress towards my fitness competition,How am I doing towards my competition goal?,Entailment
+Set a goal for my weekly flexibility training,What should my weekly flexibility goal be?,Entailment
+Create a running plan for me,Can you suggest a running plan for me?,Entailment
+Give me advice on how to improve my deadlift technique,How can I improve my deadlift form?,Entailment
+Remind me to cool down after my workout,Can you remind me to cool down after my workout?,Entailment
+Track my daily carb intake,How many carbs have I consumed today?,Entailment
+Set a reminder for my Zumba class next week,Can you remind me about my Zumba class next week?,Entailment
+Recommend a good pre-run snack,What should I eat before my run?,Entailment
+Log my progress towards my daily stretching goal,How am I doing towards my stretching goal?,Entailment
+Set a goal for my weekly balance training,What should my weekly balance goal be?,Entailment
+Create a weightlifting plan for me,Can you suggest a weightlifting plan for me?,Entailment
+Give me advice on how to improve my squat form,How can I improve my squat technique?,Entailment
+Remind me to hydrate during my workout,Can you remind me to drink water during my workout?,Entailment
+Track my daily fat intake,How much fat have I consumed today?,Entailment
+Open Netflix,Launch Netflix,Entailment
+Can you start Hulu for me?,Open the Hulu app,Entailment
+Open Disney+ please,Launch the Disney+ app,Entailment
+Can you start Amazon Prime Video?,Open the Prime Video app,Entailment
+Open HBO Max,Launch HBO Max,Entailment
+Can you start YouTube?,Open the YouTube app,Entailment
+Open Spotify,Launch Spotify,Entailment
+Can you start Pandora for me?,Open the Pandora app,Entailment
+Open Apple Music,Launch Apple Music,Entailment
+Can you start Tidal?,Open the Tidal app,Entailment
+Open SoundCloud please,Launch the SoundCloud app,Entailment
+Can you start Twitch?,Open the Twitch app,Entailment
+Open ESPN,Launch ESPN,Entailment
+Can you start NFL Sunday Ticket for me?,Open the NFL Sunday Ticket app,Entailment
+Open MLB At Bat,Launch MLB At Bat,Entailment
+Can you start NBA League Pass?,Open the NBA League Pass app,Entailment
+Open the NBC app,Launch NBC,Entailment
+Can you start CBS All Access for me?,Open the CBS app,Entailment
+Open the ABC app please,Launch ABC,Entailment
+Can you start Fox Now?,Open the Fox app,Entailment
+Open the CW app,Launch the CW app,Entailment
+Can you start HBO Now for me?,Open the HBO Now app,Entailment
+Open the Starz app please,Launch Starz,Entailment
+Can you start the Showtime app?,Open the Showtime app,Entailment
+Open the Discovery app,Launch Discovery,Entailment
+Can you start National Geographic for me?,Open the Nat Geo app,Entailment
+Open the History Channel app please,Launch History Channel,Entailment
+Can you start the Food Network app?,Open Food Network,Entailment
+Open the Cooking Channel app,Launch Cooking Channel,Entailment
+Can you start the Bravo app for me?,Open Bravo,Entailment
+Open the HGTV app please,Launch HGTV,Entailment
+Can you start the DIY Network app?,Open DIY Network,Entailment
+Open the Travel Channel app,Launch Travel Channel,Entailment
+Can you start the Comedy Central app for me?,Open Comedy Central,Entailment
+Open the Adult Swim app please,Launch Adult Swim,Entailment
+Can you start the Cartoon Network app?,Open Cartoon Network,Entailment
+Open the Nick Jr. app,Launch Nick Jr.,Entailment
+Can you start the Disney Junior app for me?,Open Disney Junior,Entailment
+Open the PBS app please,Launch PBS,Entailment
+Can you start the HBO Max app?,Open HBO Max,Entailment
+Open the Hulu Live TV app,Launch Hulu Live TV,Entailment
+Can you start the Sling TV app for me?,Open Sling TV,Entailment
+Open the YouTube TV app please,Launch YouTube TV,Entailment
+Can you start the AT&T TV app?,Open AT&T TV,Entailment
+Open the FuboTV app,Launch FuboTV,Entailment
+Can you start the Netflix party extension for me?,Open Netflix party,Entailment
+Open the Amazon Prime Video app,Launch Prime Video,Entailment
+Can you start the Disney+ app for me?,Open Disney+,Entailment
+Open the Hulu app please,Launch Hulu,Entailment
+Can you start the Apple TV app?,Open Apple TV,Entailment
+Can you open the Amazon app?," ""Can you launch the Amazon app?""", Entailment
+Can you help me find a product on eBay?," ""Can you assist me in locating a product on eBay?""", Entailment
+Can you open Walmart's online store?," ""Can you launch the Walmart app?""", Entailment
+Can you add this item to my Amazon cart?," ""Can you put this product in my Amazon cart?""", Entailment
+Can you help me find a good deal on Amazon?," ""Can you assist me in locating a good bargain on Amazon?""", Entailment
+Can you order a product from eBay?," ""Can you purchase an item from eBay?""", Entailment
+Can you help me find a coupon code for Walmart?," ""Can you assist me in locating a discount code for Walmart?""", Entailment
+Can you open the Target app?," ""Can you launch the Target app?""", Entailment
+Can you order groceries from Walmart?," ""Can you purchase groceries from Walmart?""", Entailment
+Can you help me find the best price for this product on Amazon?," ""Can you assist me in locating the best deal for this item on Amazon?""", Entailment
+Can you open the eBay app?," ""Can you launch the eBay app?""", Entailment
+Can you add this item to my Walmart cart?," ""Can you put this product in my Walmart cart?""", Entailment
+Can you help me find a product on Amazon?," ""Can you assist me in locating a product on Amazon?""", Entailment
+Can you open the Walmart app?," ""Can you launch the Walmart app?""", Entailment
+Can you order a product from Amazon?," ""Can you purchase an item from Amazon?""", Entailment
+Can you help me find a coupon code for Amazon?," ""Can you assist me in locating a discount code for Amazon?""", Entailment
+Can you open the Best Buy app?," ""Can you launch the Best Buy app?""", Entailment
+Can you order groceries from Amazon?," ""Can you purchase groceries from Amazon?""", Entailment
+Can you help me find the best price for this product on Walmart?," ""Can you assist me in locating the best deal for this item on Walmart?""", Entailment
+Can you add this item to my eBay cart?," ""Can you put this product in my eBay cart?""", Entailment
+Can you help me find a product on Walmart?," ""Can you assist me in locating a product on Walmart?""", Entailment
+Can you open the Amazon website?," ""Can you launch the Amazon website?""", Entailment
+Can you order a product from Walmart?," ""Can you purchase an item from Walmart?""", Entailment
+Can you help me find a coupon code for eBay?," ""Can you assist me in locating a discount code for eBay?""", Entailment
+Can you open the Walmart website?," ""Can you launch the Walmart website?""", Entailment
+Can you order groceries from eBay?," ""Can you purchase groceries from eBay?""", Entailment
+Can you help me find the best price for this product on eBay?," ""Can you assist me in locating the best deal for this item on eBay?""", Entailment
+Can you open the eBay website?," ""Can you launch the eBay website?""", Entailment
+Can you add this item to my Amazon shopping cart?," ""Can you put this product in my Amazon shopping cart?""", Entailment
+Can you help me find a product on eBay?," ""Can you assist me in locating a product on eBay?""", Entailment
+Can you open the Amazon shopping app?," ""Can you launch the Amazon shopping app?""", Entailment
+Can you order a product from Best Buy?," ""Can you purchase an item from Best Buy?""", Entailment
+Track my daily steps and workouts,How can I track my fitness progress?,Entailment
+Set a goal for my daily workout routine,Can you help me set a daily workout goal?,Entailment
+Check my heart rate during my exercise routine,What's the best way to monitor my heart rate while working out?,Entailment
+Create a personalized workout plan for me,Is there an app that can create a workout plan tailored to my fitness level?,Entailment
+Log my food intake and count calories,What's the best way to track my daily calorie intake?,Entailment
+Monitor my sleep patterns and quality,Is there an app that can track my sleep and provide tips for improving my sleep quality?,Entailment
+Get advice on improving my fitness performance,Can you recommend an app that can provide feedback on my fitness performance?,Entailment
+Find new workout ideas and routines,What are some good apps for finding new workout routines and ideas?,Entailment
+Connect with other fitness enthusiasts for motivation,Is there an app that can connect me with other fitness enthusiasts for motivation and support?,Entailment
+Set reminders for my daily fitness routine,Can you help me set reminders for my daily workout routine?,Entailment
+Learn a new language with Duolingo,What's a good app for learning a new language?,Entailment
+Take an online course with Coursera,Can you recommend an app for taking online courses?,Entailment
+Brush up on my math skills with Khan Academy,What's a good app for improving my math skills?,Entailment
+Learn to play a musical instrument with Yousician,Can you recommend an app for learning to play a musical instrument?,Entailment
+Study for a certification exam with Udemy,What's a good app for studying for certification exams?,Entailment
+Explore new subjects with TED Talks,Is there an app that can provide educational TED Talks on various subjects?,Entailment
+Get help with homework with Socratic,What's a good app for getting help with homework?,Entailment
+Prepare for a standardized test with PrepScholar,Can you recommend an app for preparing for standardized tests?,Entailment
+Improve my writing skills with Grammarly,What's a good app for improving my writing skills?,Entailment
+Get career advice with LinkedIn Learning,Is there an app that can provide career advice and training?,Entailment
+Book a hotel room with Airbnb,What's a good app for booking a hotel room?,Entailment
+Compare flight prices with Kayak,Can you recommend an app for comparing flight prices?,Entailment
+Rent a car with Turo,What's a good app for renting a car?,Entailment
+Get travel recommendations with Tripadvisor,Is there an app that can provide travel recommendations and reviews?,Entailment
+Book a vacation package with Expedia,Can you recommend an app for booking vacation packages?,Entailment
+Find local tours and activities with Viator,What's a good app for finding local tours and activities?,Entailment
+Track my flight status with FlightAware,Is there an app that can provide real-time flight updates?,Entailment
+Find cheap flights with Skyscanner,What's a good app for finding cheap flights?,Entailment
+Book a restaurant reservation with OpenTable,Can you recommend an app for booking restaurant reservations?,Entailment
+Get a travel guide with Lonely Planet,Is there an app that can provide travel guides and recommendations?,Entailment

@@ -16,3 +16,20 @@ body {
 form {
     margin-top: 20px;
 }
+
+/* Styling for Database table */
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.history-table th, .history-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Highlight rows on hover */
+.history-table tr:hover {
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> <!-- Link the CSS file -->
+    <title>History</title>
+</head>
+<body>
+    <h1>History of Sentence Pairs</h1>
+    <table class="history-table">
+        <tr class="table-header">
+            <th>ID</th>
+            <th>Sentence 1</th>
+            <th>Sentence 2</th>
+            <th>Cosine Similarity</th>
+        </tr>
+        {% for sentence_pair in sentence_pairs %}
+        <tr class="table-row">
+            <td class="table-cell">{{ sentence_pair.id }}</td>
+            <td class="table-cell">{{ sentence_pair.sentence1 }}</td>
+            <td class="table-cell">{{ sentence_pair.sentence2 }}</td>
+            <td class="table-cell">{{ sentence_pair.cosine_similarity }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

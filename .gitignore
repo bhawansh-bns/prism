@@ -1,0 +1,40 @@
+bnsenv1/
+model-downloaded/
+migrations/
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Database files
+*.db
+
+# Log files
+*.log
+
+# Environment variables file
+.env
+
+# Virtual environment directories
+venv/
+bnsenv1/
+*.env
+
+# Generated files
+instance/
+*.pyc
+*.pyo
+
+# Compiled files
+*.class
+*.war
+*.ear
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Dependency directories
+__pypackages__/
+
+# User-specific files
+*.DS_Store

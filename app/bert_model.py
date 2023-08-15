@@ -32,8 +32,9 @@ class CustomDataset(Dataset):
         return self.texts[idx], self.labels[idx]
 
 class BERTModel:
-    def __init__(self, model_path='./model-download/bert-base-uncased'):
-        self.model = SentenceTransformer(model_path)
+    def __init__(self):
+        self.model = SentenceTransformer()
+        self.model.trainable = True
 
     def predict(self, sentence1, sentence2):
         embeddings1 = self.model.encode([sentence1])
@@ -43,35 +44,31 @@ class BERTModel:
         return similarity[0][0]
 
     def train_model(self):
-        sentence_pairs = db.session.query(SentencePair).all()
-        sentences1 = [pair.sentence1 for pair in sentence_pairs]
-        sentences2 = [pair.sentence2 for pair in sentence_pairs]
-        cosine_similarities = [pair.cosine_similarity for pair in sentence_pairs]
+        # Create a dataset of sentence pairs and their cosine similarity values
+        sentence_pairs = [
+            ('Set the temperature to 72 degrees', 'Adjust thermostat to 72 degrees', 0.8340750932693481),
+            ('Turn on the lamp in the living room', 'Switch on the living room lamp', 0.8756259679794312),
+            ('Lock the back door', 'Secure the rear entrance', 0.8282058835029602),
+        ]
 
-        train_data = CustomDataset(texts=sentences1, labels=cosine_similarities)
-        train_dataloader = DataLoader(train_data, batch_size=16, shuffle=True)
+        # Create a DataLoader object for the dataset
+        dataloader = torch.utils.data.DataLoader(sentence_pairs, batch_size=16)
 
-        # Define loss function and optimizer
-        loss_function = losses.CosineSimilarityLoss(model=self.model)
-        optimizer = AdamW(self.model.parameters(), lr=2e-5)
+        # Define a loss function and an optimizer
+        loss_function = losses.CosineSimilarityLoss(model=model)
+        optimizer = AdamW(model.parameters(), lr=2e-5)
 
-        # Training loop
-        num_epochs = 3
-        for epoch in range(num_epochs):
-            self.model.train()
-            train_loss = 0
-            for batch_texts, batch_labels in train_dataloader:
-                embeddings = self.model.encode(batch_texts)
-                batch_similarity = cosine_similarity(embeddings, embeddings)
-                batch_loss = loss_function(batch_similarity, batch_labels)
-                
+        # Train the model
+        for epoch in range(3):
+            model.train()
+            for batch in dataloader:
+                sentences, labels = batch
+                embeddings = model.encode(sentences)
+                batch_loss = loss_function(embeddings, labels)
                 optimizer.zero_grad()
                 batch_loss.backward()
                 optimizer.step()
-                train_loss += batch_loss.item()
-
-            avg_train_loss = train_loss / len(train_dataloader)
-            print(f'Epoch {epoch+1}/{num_epochs}, Average Training Loss: {avg_train_loss:.4f}')
 
         # Save the trained model
-        self.model.save('trained_model')
+        model.save('trained_model')
+

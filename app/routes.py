@@ -1,12 +1,13 @@
 from flask import Blueprint, render_template, request
-from .bert_model import BERTModel
+# from .bert_model import BERTModel
 from .forms import PredictionForm
 from .models import SentencePair
 from app import db  # Import db from app module
+from .sentence_transformers import SentenceTransformersModel
 
 bp = Blueprint('main', __name__)
 
-model = BERTModel()  # Initialize the BERT model
+model = SentenceTransformersModel()  # Initialize the BERT model
 
 @bp.route('/')
 def index():
@@ -44,10 +45,18 @@ def history():
 
 @bp.route('/train', methods=['GET'])
 def train():
-    from .train_model import train_cosine_similarity_model
-
-    # Call the training function and pass your model instance
-    train_cosine_similarity_model(model)
+    sentence_pairs_from_db = SentencePair.query.all()
+    # sentence_pairs = [
+    #     SentencePair(sentence1=pair.sentence1, sentence2=pair.sentence2, cosine_similarity=pair.cosine_similarity)
+    #     for pair in sentence_pairs_from_db
+    #     ]
+    # print(sentence_pairs)
+    # sentence_pairs = [
+    #         ('Set the temperature to 72 degrees', 'Adjust thermostat to 72 degrees', 0.8340750932693481),
+    #         ('Turn on the lamp in the living room', 'Switch on the living room lamp', 0.8756259679794312),
+    #         ('Lock the back door', 'Secure the rear entrance', 0.8282058835029602),
+    # ]
+    model.train_model(sentence_pairs_from_db)
     return "Training completed and model saved."
 
 
